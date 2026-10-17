@@ -3,7 +3,7 @@
 Insumos/datos_backend.pkl
 
 # Archivos de configuración y preparación
-Codigo_configuración/
+Codigo_configuracion/
 
 # Archivos temporales de Python
 __pycache__/
