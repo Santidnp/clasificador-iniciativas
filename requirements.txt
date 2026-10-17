@@ -1,0 +1,10 @@
+streamlit
+pandas
+numpy
+openpyxl
+Pillow
+sentence-transformers
+faiss-cpu
+scikit-learn
+joblib
+python-dotenv

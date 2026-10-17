@@ -1,0 +1,2 @@
+Insumos/datos_backend.pkl filter=lfs diff=lfs merge=lfs -text
+Insumos/datos_backend_reducido.pkl filter=lfs diff=lfs merge=lfs -text
