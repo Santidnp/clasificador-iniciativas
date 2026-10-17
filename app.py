@@ -10,13 +10,14 @@ import pandas as pd
 import io
 from backend_sin_IA import clasificar_iniciativa_completa
 from PIL import Image
+from pathlib import Path
 
 st.set_page_config(
     page_title="Clasificador de Iniciativas",page_icon="📊",layout="wide")
     
 col1, col2, col3 = st.columns([4, 1, 4])
 
-DNP=Image.open(r"C:\Users\MQUEVEDO\Departamento Nacional de Planeacion\Unidad de Ciencia de Datos - 2026\P05_Audiencias_PPI\Codigo\Imagen1.png")
+DNP = Image.open(Path(__file__).resolve().parent / "Imagen1.png")
 
 with col1:
     st.write("                                                                                         ")

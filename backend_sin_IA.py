@@ -18,8 +18,8 @@ from pathlib import Path
 from sentence_transformers import SentenceTransformer
 from dotenv import load_dotenv
 
-BASE_DIR=Path(__file__).resolve().parent
-DATOS_DIR=BASE_DIR.parent/"Insumos"
+BASE_DIR = Path(__file__).resolve().parent
+DATOS_DIR = BASE_DIR / "Insumos"
 
 with open(DATOS_DIR/"datos_backend.pkl","rb") as f:
     datos=pickle.load(f)
