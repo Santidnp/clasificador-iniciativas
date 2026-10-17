@@ -1,0 +1,18 @@
+
+# Archivo original demasiado grande
+Insumos/datos_backend.pkl
+
+# Archivos de configuración y preparación
+Codigo_configuración/
+
+# Archivos temporales de Python
+__pycache__/
+*.pyc
+
+# Entornos virtuales
+.venv/
+venv/
+
+# Credenciales
+.env
+.streamlit/secrets.toml
