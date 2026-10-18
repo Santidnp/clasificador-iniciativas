@@ -16,4 +16,4 @@ venv/
 # Credenciales
 .env
 .streamlit/secrets.toml
- Insumos/datos_backend_reducido.pkl
+Insumos/datos_backend_reducido.pkl
