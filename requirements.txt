@@ -1,0 +1,7 @@
+streamlit
+pandas
+openpyxl
+Pillow
+gradio_client>=2,<3
+xlrd
+
